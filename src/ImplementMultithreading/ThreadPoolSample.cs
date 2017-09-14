@@ -7,16 +7,15 @@ using System.Threading.Tasks;
 
 namespace ImplementMultithreading
 {
-    class Program
+    public static class ThreadPoolSample
     {
-        /// <summary>
-        /// Objective 1.1
-        /// </summary>
-        /// <param name="args"></param>
-        static void Main(string[] args)
+        public static void Execute()
         {
-        }
+            ThreadPool.QueueUserWorkItem(state => 
+            {
+                //Do something
+            });
 
-        
+        }
     }
 }
