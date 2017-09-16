@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD579377-066C-4A90-B46D-C3386E89CE99}</ProjectGuid>
+    <ProjectGuid>{812AFA78-8807-4320-80D6-5FA3DEA77366}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ImplementMultithreading</RootNamespace>
-    <AssemblyName>ImplementMultithreading</AssemblyName>
+    <RootNamespace>ManageMultithreading</RootNamespace>
+    <AssemblyName>ManageMultithreading</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,15 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncAwaitSample.cs" />
-    <Compile Include="ParallelSample.cs" />
+    <Compile Include="CancelingTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaskSamples.cs" />
-    <Compile Include="ThreadFieldSample.cs" />
-    <Compile Include="ThreadPoolSample.cs" />
-    <Compile Include="ThreadSample.cs" />
-    <Compile Include="ThreadStaticAttributeSample.cs" />
+    <Compile Include="SynchronizingResources.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
