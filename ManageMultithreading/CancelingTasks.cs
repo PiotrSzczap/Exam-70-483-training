@@ -24,5 +24,31 @@ namespace ManageMultithreading
 
             cancellationTokenSource.Cancel();
         }
+
+        public static void CanceledException()
+        {
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            CancellationToken cancellationToken = cancellationTokenSource.Token;
+
+            Task task = Task.Run(() =>
+            {
+                while (!cancellationToken.IsCancellationRequested)
+                {
+                    // do something
+                }
+
+                cancellationToken.ThrowIfCancellationRequested();
+            });
+
+            try
+            {
+                cancellationTokenSource.Cancel();
+            }
+            catch (AggregateException exception)
+            {
+                
+            }
+            Console.ReadLine();
+        }
     }
 }
