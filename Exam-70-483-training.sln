@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementMultithreading", "src\ImplementMultithreading\ImplementMultithreading.csproj", "{FD579377-066C-4A90-B46D-C3386E89CE99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageMultithreading", "ManageMultithreading\ManageMultithreading.csproj", "{812AFA78-8807-4320-80D6-5FA3DEA77366}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndCallbacks", "EventsAndCallbacks\EventsAndCallbacks.csproj", "{3C349223-B278-4D5C-A602-CDF4607CC891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementExceptionHandling", "ImplementExceptionHandling\ImplementExceptionHandling.csproj", "{61D34CC9-639E-4DB3-8104-846514355038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3C349223-B278-4D5C-A602-CDF4607CC891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C349223-B278-4D5C-A602-CDF4607CC891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C349223-B278-4D5C-A602-CDF4607CC891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D34CC9-639E-4DB3-8104-846514355038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D34CC9-639E-4DB3-8104-846514355038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D34CC9-639E-4DB3-8104-846514355038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D34CC9-639E-4DB3-8104-846514355038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

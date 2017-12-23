@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C349223-B278-4D5C-A602-CDF4607CC891}</ProjectGuid>
+    <ProjectGuid>{61D34CC9-639E-4DB3-8104-846514355038}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EventsAndCallbacks</RootNamespace>
-    <AssemblyName>EventsAndCallbacks</AssemblyName>
+    <RootNamespace>ImplementExceptionHandling</RootNamespace>
+    <AssemblyName>ImplementExceptionHandling</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,9 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Delegates.cs" />
-    <Compile Include="Events.cs" />
-    <Compile Include="Lambdas.cs" />
+    <Compile Include="OrderProcessingException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
