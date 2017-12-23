@@ -14,20 +14,20 @@ namespace ImplementExceptionHandling
         {
             OrderId = orderId;
             this.HelpLink = "http://www.mydomain.com/infoaboutexception";
-}
+        }
         public OrderProcessingException(int orderId, string message)
         : base(message)
         {
             OrderId = orderId;
             this.HelpLink = "http://www.mydomain.com/infoaboutexception";
-}
+        }
         public OrderProcessingException(int orderId, string message,
         Exception innerException)
         : base(message, innerException)
         {
             OrderId = orderId;
             this.HelpLink = "http://www.mydomain.com/infoaboutexception";
-}
+        }
         protected OrderProcessingException(SerializationInfo info, StreamingContext context)
         {
             OrderId = (int)info.GetValue("OrderId", typeof(int));
