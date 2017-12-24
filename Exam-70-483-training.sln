@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnforceEncapsulation", "Enf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementClassHierarchy", "ImplementClassHierarchy\ImplementClassHierarchy.csproj", "{8C122C95-403F-4A40-AD50-6071E6AA0812}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{0048380F-6B2C-4FED-BB64-6F18C05F2F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{8C122C95-403F-4A40-AD50-6071E6AA0812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C122C95-403F-4A40-AD50-6071E6AA0812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C122C95-403F-4A40-AD50-6071E6AA0812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0048380F-6B2C-4FED-BB64-6F18C05F2F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0048380F-6B2C-4FED-BB64-6F18C05F2F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0048380F-6B2C-4FED-BB64-6F18C05F2F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0048380F-6B2C-4FED-BB64-6F18C05F2F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{B45A547C-0F04-4F26-BD48-7ED802A4BA6F} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 		{3DCF6E0E-8A39-4965-B9D8-BBB75EF9E9D1} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 		{8C122C95-403F-4A40-AD50-6071E6AA0812} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
+		{0048380F-6B2C-4FED-BB64-6F18C05F2F77} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2929B92A-92FD-40D7-9E71-01445330DE22}
