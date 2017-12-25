@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsumeTypes")]
+[assembly: AssemblyTitle("ValidateInput")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConsumeTypes")]
+[assembly: AssemblyProduct("ValidateInput")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b45a547c-0f04-4f26-bd48-7ed802a4ba6f")]
+[assembly: Guid("6924413c-eb94-482f-925f-0d04d7360522")]
 
 // Version information for an assembly consists of the following four values:
 //

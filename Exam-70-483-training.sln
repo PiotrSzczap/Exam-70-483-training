@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectLifeCycle", "ObjectLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulateStrings", "ManipulateStrings\ManipulateStrings.csproj", "{969C058B-A032-498E-8859-2F53F70FEA54}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DebugImplementSecurity", "DebugImplementSecurity", "{8D8F2437-3197-4734-AE0D-2EC62D4631B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateInput", "ValidateInput\ValidateInput.csproj", "{6924413C-EB94-482F-925F-0D04D7360522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,10 @@ Global
 		{969C058B-A032-498E-8859-2F53F70FEA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969C058B-A032-498E-8859-2F53F70FEA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969C058B-A032-498E-8859-2F53F70FEA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6924413C-EB94-482F-925F-0D04D7360522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6924413C-EB94-482F-925F-0D04D7360522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6924413C-EB94-482F-925F-0D04D7360522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6924413C-EB94-482F-925F-0D04D7360522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{0048380F-6B2C-4FED-BB64-6F18C05F2F77} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 		{6BE8E322-94A7-4256-9994-DAEF6AE10D5A} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 		{969C058B-A032-498E-8859-2F53F70FEA54} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
+		{6924413C-EB94-482F-925F-0D04D7360522} = {8D8F2437-3197-4734-AE0D-2EC62D4631B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2929B92A-92FD-40D7-9E71-01445330DE22}
