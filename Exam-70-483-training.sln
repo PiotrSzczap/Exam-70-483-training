@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateInput", "ValidateIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformEncryption", "PerformEncryption\PerformEncryption.csproj", "{6388573A-18E2-4B58-8E87-16970E9FF5A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementDiagnostics", "ImplementDiagnostics\ImplementDiagnostics.csproj", "{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6388573A-18E2-4B58-8E87-16970E9FF5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6388573A-18E2-4B58-8E87-16970E9FF5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6388573A-18E2-4B58-8E87-16970E9FF5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{969C058B-A032-498E-8859-2F53F70FEA54} = {5246BAC2-3E49-4F69-AB6D-A08466692238}
 		{6924413C-EB94-482F-925F-0D04D7360522} = {8D8F2437-3197-4734-AE0D-2EC62D4631B3}
 		{6388573A-18E2-4B58-8E87-16970E9FF5A2} = {8D8F2437-3197-4734-AE0D-2EC62D4631B3}
+		{DD5B253C-55D5-4DE7-AA3F-CB082AEFB3D1} = {8D8F2437-3197-4734-AE0D-2EC62D4631B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2929B92A-92FD-40D7-9E71-01445330DE22}
